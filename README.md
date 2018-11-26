@@ -3,6 +3,11 @@ babel-preset-kkt
 
 This package includes the [Babel](https://babeljs.io) preset used by kkt.
 
+## Install
+
+```bash
+npm i babel-preset-kkt
+```
 
 ## Usage Outside of kkt
 
