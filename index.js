@@ -46,6 +46,16 @@ var preset = {
         useESModules: false,
       },
     ],
+    [
+      require.resolve('babel-plugin-named-asset-import'),
+      {
+        loaderMap: {
+          svg: {
+            ReactComponent: '@svgr/webpack?-prettier,-svgo![path]',
+          },
+        },
+      },
+    ],
   ],
 }
 

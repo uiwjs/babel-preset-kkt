@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-kkt",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Babel presets for kkt.",
   "main": "index.js",
   "license": "MIT",
@@ -24,6 +24,8 @@
     "@babel/preset-env": "7.1.6",
     "@babel/preset-react": "7.0.0",
     "@babel/runtime": "7.1.5",
+    "@svgr/webpack": "4.1.0",
+    "babel-plugin-named-asset-import": "0.2.3",
     "babel-plugin-transform-react-remove-prop-types": "0.4.20"
   }
 }
