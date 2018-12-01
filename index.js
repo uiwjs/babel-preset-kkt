@@ -59,10 +59,17 @@ var preset = {
   ],
 }
 
+if (env === 'development') {
+  preset.plugins.push.apply(preset.plugins, [
+    // Adds component stack to warning messages
+    require.resolve('@babel/plugin-transform-react-jsx-source'),
+  ]);
+}
+
 if (env === 'production') {
   preset.plugins.push.apply(preset.plugins, [
     require.resolve('babel-plugin-transform-react-remove-prop-types'),
   ]);
 }
 
-module.exports = preset;
+module.exports = () => preset;
