@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/uiw-react/babel-preset-kkt.git"
+    "url": "https://github.com/uiwjs/babel-preset-kkt.git"
   },
   "keywords": [
     "kkt",
