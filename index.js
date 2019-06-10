@@ -27,6 +27,7 @@ var preset = {
     require.resolve('@babel/preset-react'),
   ],
   plugins: [
+    require.resolve('@babel/plugin-proposal-export-default-from'),
     require.resolve('@babel/plugin-syntax-dynamic-import'),
     require.resolve('@babel/plugin-proposal-class-properties'),
     require.resolve('@babel/plugin-transform-async-to-generator'),
